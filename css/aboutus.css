@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+/* -- Header -- */
+.header-about-us{
+    position: relative;
+    margin-top: 71px;
+    width: 100%;
+    height: 650px;
+    background-image: linear-gradient(rgba(117, 117, 117, 0.2), rgba(117, 117, 117, 0.2)), url(../assets/aboutus/aboutus-header.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+.header-text{
+    color: white;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-shadow: 2px 5px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 2px;
+}
+
+.header-about-us h1{
+    font-size: 50px;
+}
+
+.header-about-us p{
+    font-size: 20px;
+    font-weight: 500;
+}
+
+/* -- Content -- */
+.about-us{
+    margin: 90px 130px;
+}
+
+.about-us h1{
+    font-size: 30px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    text-align: center;
+    color: rgb(0, 53, 65);
+    margin-bottom: 20px;
+}
+
+/* -- Mall Description -- */
+
+.description p{
+    padding-top: 20px;
+    color: rgba(0, 53, 65, 0.8);
+    font-weight: 400;
+    text-align: justify;
+}
+
+.description h4{
+    padding-top: 20px;
+    color: rgb(0, 53, 65);
+    font-weight: 600;
+}
+
+.contact{
+    display: flex;
+    align-items: center;
+    margin: 20px 0;
+}
+
+.contact img{
+    width: 30px;
+    height: 30px;
+    margin-right: 15px;
+}
+
+.contact p{
+    padding-top: 0;
+}
+
+#mall-video{
+    display: flex;
+    justify-content: space-around;
+}
+
+#mall-video iframe{
+    margin-top: 30px;
+    width: 45%;
+    height: 300px;
+}
+
+/* -- Facilities -- */
+#facilities{
+    margin-top: 70px;
+    padding-top: 50px;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+#facilities img{
+    width: 150px;
+    height: 150px;
+}
+
+.row-facilities{
+    padding: 20px 0 40px 0;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.row-facilities h5{
+    color: rgb(0, 53, 65);
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 600;
+}
+
+.row-facilities p{
+    font-size: 15px;
+    margin-top: 10px;
+    color: rgba(0, 53, 65, 0.8);
+    font-weight: 400;
+}
+
+.col-facilities{
+    margin: 0 60px;
+    width: 40%;
+}
+
+.col-facilities:hover{
+    transform: scale(1.05);
+}

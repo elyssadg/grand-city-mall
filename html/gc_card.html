@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grand City Website</title>
+    <link rel="icon" type="image/png" href="../assets/favicon.png">
+    
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Lalezar&family=Poppins:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="../css/nav.css">
+    <link rel="stylesheet" href="../css/home.css">
+    <link rel="stylesheet" href="../css/gc_card.css">
+    <link rel="stylesheet" href="../css/footer.css">
+</head>
+<body>
+    <header>
+        <div class="navbar">
+            <nav>
+                <a id="logo" href="home.html">
+                    <h1>GRAND CITY</h1>
+                </a>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="shop.html">SHOPS</a></li>
+                    <li><a href="promo.html">PROMOTIONS</a></li>
+                    <li><a href="aboutus.html">ABOUT US</a></li>
+                    <li class="active"><a href="#">GC CARD</a></li>
+                </ul>
+            </nav>
+        </div>
+        <img src="../assets/card/cardheader.png">       
+    </header>
+
+    <section class="card">
+        <div id="card-form">
+            <h1>Get Your GC Card and Enjoy Extra Promotions</h1>
+            <form action="gc_card.html">
+                <div class="data">
+                    <input type="text" class="text-box" placeholder="Enter your first name" required><br>
+                    <input type="text" class="text-box" placeholder="Enter your last name" required><br>
+                    <input type="email" class="text-box" placeholder="Enter your email (format: address@email.com)" required><br>
+                    <input type="tel" pattern="[0][8][0-9]{1,}" class="text-box" placeholder="Enter your phone number (08xxxxxxxxxx)" required><br>
+                    <input type="text" class="text-box" placeholder="Enter your address" required><br>
+                    <input type="text" class="text-box" placeholder="Enter your gender" list="user-gender" required><br>
+                    <datalist id="user-gender">
+                        <option value="Male"></option>
+                        <option value="Female"></option>
+                        <option value="I prefer not to say"></option>
+                    </datalist>
+                    <input type="text" onfocus="(this.type='date')" id="date-box" placeholder="Enter your birthday" required><br>
+                    <input type="number" class="text-box" placeholder="Enter your age" required><br>
+                    <input type="checkbox" id="terms-condition" name="terms-condition" value="terms">
+                    <label for="terms-condition">I agree to all terms and conditions</label><br>
+                    <input type="submit" class="card-button" value="Buy & Create">
+                </div>
+            </form>
+        </div>
+        <div class="benefit">
+            <h1>Exclusive for GC Member</h1>
+            <div class="row-benefit">
+                <div class="col-benefit">
+                    <img src="../assets/card/privilege/shoplogo1.PNG" alt="pepper-lunch-logo">
+                    <div class="discount">Discount 10%</div>
+                </div>
+                <div class="col-benefit">
+                    <img src="../assets/card/privilege/shoplogo2.PNG" alt="body-shop-logo">
+                    <div class="discount">Buy 1 Get 1 Free For Body Butter</div>
+                </div>
+                <div class="col-benefit">
+                    <img src="../assets/card/privilege/shoplogo3.PNG" alt="baskin-robbin-logo">
+                    <div class="discount">Discount 20%</div>
+                </div>
+            </div>
+            <div class="row-benefit">
+                <div class="col-benefit">
+                    <img src="../assets/card/privilege/shoplogo4.PNG" alt="hnm-logo">
+                    <div class="discount">Discount 10% Accessories Only</div>
+                </div>
+                <div class="col-benefit">
+                    <img src="../assets/card/privilege/shoplogo5.PNG" alt="miniso-logo">
+                    <div class="discount">Discount 15% Marvel Edition</div>
+                </div>
+                <div class="col-benefit">
+                    <img src="../assets/card/privilege/shoplogo6.PNG" alt="chatime-logo">
+                    <div class="discount">Buy 1 Get 1 Free Class Milk Tea</div>
+                </div>
+            </div>
+            <div class="row-benefit">
+                <div class="col-benefit">
+                    <img src="../assets/card/privilege/shoplogo7.PNG" alt="ace-hardware-logo">
+                    <div class="discount">Discount 15%</div>
+                </div>
+                <div class="col-benefit">
+                    <img src="../assets/card/privilege/shoplogo8.PNG" alt="xxi-logo">
+                    <div class="discount">Discount 20% Every Saturday</div>
+                </div>
+            </div>
+            <div class="create"><a href="#card-form">Create Card</a></div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="subscribe">
+            <h1>SUBSCRIBE TO OUR NEWSLETTER</h1>
+            <p>Get the latest news about Grand City Mall</p>
+            <form action="#">
+                <input type="text" class="text-box" placeholder="Enter your name" required><br>
+                <input type="email" class="text-box" placeholder="Enter your email (format: address@email.com)" required><br>
+                <input type="submit" class="subscribe-btn" value="Subscribe!">
+            </form>
+        </div>
+        <div class="footer-content">
+            <div class="first-col">
+                <h1>Grand City Mall</h1>
+                <p>Jl. Walikota Mustajab No. 1, Ketabang, Kec. Genteng, Surabaya, East Java 60272</p>
+                <p>Opening hours: Monday - Sunday, 10.00AM - 10.00PM WIB</p>
+                <h1 class="follow-us">Follow Us</h1>
+                <div class="social-media">
+                    <div class="social-media">
+                        <a href="https://www.instagram.com/grandcitymall/?hl=en"><img src="../assets/footer/instagram.png" alt="instagram-icon"></a>
+                        <a href="https://www.facebook.com/grandcitysurabaya/"><img src="../assets/footer/facebook.png" alt="facebook-icon"></a>
+                        <a href="https://www.youtube.com/"><img src="../assets/footer/youtube.png" alt="youtube-icon"></a>
+                        <a href="https://www.twitter.com/" id="twitter"><img src="../assets/footer/twitter.png" alt="twitter-icon"></a>
+                    </div>
+                </div>
+            </div>
+            <div class="sec-col">
+                <h1>Information</h1>
+                <ul>
+                    <li><a href="aboutus.html">About Us</a></li>
+                    <li><a href="aboutus.html#facilities">Mall Facilities</a></li>
+                    <li><a href="aboutus.html">Career</a></li>
+                    <li><a href="#">Membership</a></li>
+                </ul>
+            </div>
+            <div class="third-col">
+                <h1>Customer Service</h1>
+                <a href="https://web.whatsapp.com/"><h1 id="phone-num">0315459000</h1></a>
+                <a href="https://gmail.com/"><p id="email">grandcitysby@grandcity.com</p></a>
+            </div>
+        </div>
+        <div class="credit">
+            &copy; 2022 All Rights Reserved
+            <br>
+            Developed by Elyssa Davina Giovanni
+        </div>
+    </footer>
+</body>
+</html>

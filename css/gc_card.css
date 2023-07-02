@@ -1,0 +1,140 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.card{
+    margin: 90px 130px;
+    text-align: center;
+}
+
+/* -- Form -- */
+.card h1{
+    color: rgb(0, 53, 65);
+    font-weight: 700;
+    font-size: 30px;
+    letter-spacing: 1px;
+}
+
+.card form{
+    margin: 40px 220px 60px 220px;
+    border-radius: 10px;
+    background-color: rgb(255, 229, 152);
+}
+
+.data{
+    padding: 35px 0;
+}
+
+.data input{
+    padding: 15px 20px;
+    margin: 10px 0;
+}
+
+#date-box{
+    padding: 15px 20px;
+    width: 600px;
+    color: rgb(0, 82, 159);
+    font-size: 15px;
+    outline: none;
+    letter-spacing: 1px;
+    background: white;
+    border-radius: 10px;
+    border: none;
+}
+
+#terms-condition{
+    margin-bottom: 30px;
+}
+
+.card-button{
+    padding: 8px 18px !important;
+    border-radius: 30px;
+    background-color: transparent;
+    border: 2px solid rgb(209, 98, 79);
+    color: rgb(209, 98, 79);
+    text-align: center;
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    transition: 300ms;
+}
+
+.card-button:hover{
+    color: white;
+    background: rgb(209, 98, 79);
+    cursor: pointer;
+    transition: all 500ms;
+}
+
+/* -- Card Benefit -- */
+.benefit{
+    padding-top: 50px;
+    border-top: 0.5px solid rgba(0, 0, 0, 0.2);
+}
+
+.row-benefit{
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.create{
+    text-align: center;
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.create a{
+    padding: 5px 1px;
+    text-decoration: none;
+    width: 150px;
+    border: 1px solid rgb(0, 53, 65);
+    border-radius: 30px;
+    color: rgb(0, 53, 65);
+    text-align: center;
+    font-weight: 500;
+    letter-spacing: 1px;
+    display: inline-block;
+    justify-content: center;
+    transition: 300ms;
+}
+
+.create a:hover{
+    color: white;
+    background: rgb(0, 53, 65);
+    border: 1px solid rgb(0, 53, 65);
+    transition: all 500ms;
+}
+
+.col-benefit{
+    overflow: hidden;
+    margin: 0 20px;
+    width: 350px;
+    height: 150px;
+    background-color: rgb(0, 82, 159);;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.col-benefit img{
+    padding: 10px;
+    width: 75px;
+    height: 75px;
+}
+
+.discount{
+    padding: 10px;
+    height: 75px;
+    color: white;
+    border-top: 0.5px solid white;
+}
